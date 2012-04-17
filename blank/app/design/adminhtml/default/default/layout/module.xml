@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<layout>
+    <[module]_adminhtml_index_index>
+        <update handle="[module]_index_index"/>
+        <reference name="content">
+            <block type="[module]/adminhtml_[module]" name="myadmin" template="[module]/[module].phtml"/>
+        </reference>
+    </[module]_adminhtml_index_index>
+</layout>
